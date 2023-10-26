@@ -1,0 +1,46 @@
+* { 
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+text-align: center;
+}
+
+body {
+background-image: url("https://global.discourse-cdn.com/forza/original/3X/1/c/1c6058fe05720f99069a253cfd6421a087a0143b.jpeg");
+}
+
+nav ul {
+display: flex;
+flex-direction:row;
+gap:5em;
+background-color:blue;
+padding:1em;
+list-style-type:none;
+text-align: center;
+justify-content: space-evenly;
+width:100%;
+font-size: 20px;
+}
+
+a {
+text-decoration: none;
+color:limegreen;
+}
+
+a:hover {
+color:yellow;
+}
+
+
+@media screen and (max-width:750px) {
+    nav ul {
+        background-color: darkcyan;
+        flex-direction: column;
+        padding:0.5em;
+        gap:1em;
+        font-size: 24px;
+    }
+}
+
+
